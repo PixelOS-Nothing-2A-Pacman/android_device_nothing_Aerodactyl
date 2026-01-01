@@ -248,6 +248,7 @@ PRODUCT_PACKAGES += \
     NothingPowerOffAlarmResTarget \
     NothingSettingsResTarget \
     NothingSystemUIResTarget \
+    NothingLauncherPacman \
     NothingTelephonyResTarget \
     NothingWifiResTarget
 
