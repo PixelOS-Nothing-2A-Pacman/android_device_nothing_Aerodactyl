@@ -1,2 +1,5 @@
 # Fingerprint
 vendor_internal_prop(vendor_fingerprint_prop)
+
+# Audio
+vendor_internal_prop(vendor_audio_prop)
