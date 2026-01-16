@@ -24,3 +24,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=Pacman \
     SystemDevice=Pacman \
     SystemName=Pacman
+
+# Include the private keys for signing the build.
+-include vendor/lineage-priv/keys/keys.mk
