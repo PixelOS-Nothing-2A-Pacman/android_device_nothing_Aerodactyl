@@ -1,2 +1,11 @@
 # Fingerprint
 vendor_internal_prop(vendor_fingerprint_prop)
+
+# Audio
+vendor_internal_prop(vendor_audio_prop)
+
+# Viper4Android FX
+# get_prop(audioserver, vendor_audio_prop) # If Google or MTK device skip line
+
+allow audioserver unlabeled:file { read write open getattr };
+allow hal_audio_default hal_audio_default:process { execmem };
