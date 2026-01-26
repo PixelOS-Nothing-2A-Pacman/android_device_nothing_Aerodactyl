@@ -9,6 +9,15 @@
     <string-array name="config_captive_portal_https_urls" translatable="false">
         <item>https://connectivitycheck.gstatic.com/generate_204</item>
         <item>https://www.google.com/generate_204</item>
+        <item>https://connect.rom.miui.com/generate_204</item>
+        <item>https://grapheneos.online/generate_204</item>
+    </string-array>
+
+    <string-array name="config_captive_portal_http_urls" translatable="false">
+        <item>http://connectivitycheck.gstatic.com/generate_204</item>
+        <item>http://www.google.com/generate_204</item>
+        <item>http://connect.rom.miui.com/generate_204</item>
+        <item>http://grapheneos.online/generate_204</item>
     </string-array>
 
     <!-- Set to true if NetworkMonitor needs to load the resource by neighbor mcc when device
